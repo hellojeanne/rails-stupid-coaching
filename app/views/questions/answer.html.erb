@@ -1,8 +1,17 @@
+<body>
 <h1>Questions#answer</h1>
 <p>Find me in app/views/questions/answer.html.erb</p>
 
+<div class="banner">
 <%= @question %>
 <p>- You</p>
+</div>
+
 <br>
+<div class="banner">
 <%= @answer %>
 <p>- Your coach</p>
+</div>
+<a href=""><%= link_to 'Ask a new question', ask_path %></a>
+
+</body>
